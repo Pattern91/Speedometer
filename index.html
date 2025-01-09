@@ -3,6 +3,11 @@
 <body>
     <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
         <h1>ESP-Web-Tool</h1>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <p>This tool will install the Speedometer Firmware on a connected Board to allow Speedmeasurements of RK Instruments Coaters.</p>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
         <script type="module" src="https://unpkg.com/esp-web-tools@3.4.2/dist/web/install-button.js?module"></script>
         <esp-web-install-button
       manifest="test/manifest.json"
@@ -11,5 +16,7 @@
       <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
     </esp-web-install-button>
     </div>
+    
+        
 </body>
 </html>
