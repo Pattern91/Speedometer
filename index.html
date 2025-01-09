@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style> 
+        #main {
+          text-align: center;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: -150px;
+          margin-left: -50px;
+          width: 300px;
+          height: 100px;
+        }
+        </style>
+    </head>
 <body>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <h1>ESP-Web-Tool</h1>
-        <div>This tool will install the Speedometer Firmware on a connected Board to allow Speedmeasurements of RK Instruments Coaters.</div>
-    </div>
-    <div style="display: flex; justify-content: center; align-items: center;">
-        <p>This tool will install the Speedometer Firmware on a connected Board to allow Speedmeasurements of RK Instruments Coaters.</p>
-    </div>
-    <div style="display: flex; justify-content: center; align-items: center;">
+	<div id="main">
+	<h1>ESP-Web-Tool</h1>    
+    <p>This tool will install the Speedometer Firmware on a connected Board to allow Speedmeasurements of RK Instruments Coaters.</p>
         <script type="module" src="https://unpkg.com/esp-web-tools@3.4.2/dist/web/install-button.js?module"></script>
         <esp-web-install-button
-      manifest="test/manifest.json"
-    >
-      <span slot="unsupported">Ah snap, your browser doesn't work!</span>
-      <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
-    </esp-web-install-button>
+        manifest="test/manifest.json"
+      >
+        <span slot="unsupported">Ah snap, your browser doesn't work!</span>
+        <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
+      </esp-web-install-button>
     </div>
     
         
