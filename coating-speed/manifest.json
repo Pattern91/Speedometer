@@ -5,10 +5,7 @@
       "chipFamily": "ESP32",
       "improv": false,
       "parts": [
-        { "path": "bootloader.bin", "offset": 4096 },
-        { "path": "partitions.bin", "offset": 32768 },
-        { "path": "ota.bin", "offset": 57344 },
-        { "path": "coating-speed.ino.adafruit_feather_esp32s3_reversetft.bin", "offset": 65536 }
+        { "path": "coating-speed.ino.adafruit_feather_esp32s3_reversetft.bin", "offset": 0 }
       ]
     }
   ]
