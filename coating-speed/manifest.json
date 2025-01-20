@@ -2,7 +2,7 @@
   "name": "ESPSpeedometer",
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S3",
       "improv": false,
       "parts": [
         { "path": "coating-speed.ino.adafruit_feather_esp32s3_reversetft.bin", "offset": 0 }
