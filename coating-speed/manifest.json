@@ -5,7 +5,7 @@
       "chipFamily": "ESP32-S3",
       "improv": false,
       "parts": [
-        { "path": "coating-speed.ino.adafruit_feather_esp32s3_reversetft.bin", "offset": 0 }
+        { "path": "coating-speed.ino.merged.bin", "offset": 0 }
       ]
     }
   ]
