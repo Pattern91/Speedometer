@@ -1,5 +1,6 @@
 {
-  "name": "ESPSpeedometer",
+  "name": "Solenis Speedometer",
+  "version": "2025.01.0",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
