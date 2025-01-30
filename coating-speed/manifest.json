@@ -6,7 +6,7 @@
       "chipFamily": "ESP32-S3",
       "improv": false,
       "parts": [
-        { "path": "coating-speed.ino.merged.bin", "offset": 0 }
+        { "path": "coating-speed-sparkfun.ino.merged.bin", "offset": 0 }
       ]
     }
   ]
