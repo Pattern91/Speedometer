@@ -8,13 +8,6 @@
       "parts": [
         { "path": "coating-speed-sparkfun.ino.merged.bin", "offset": 0 }
       ]
-    },
-    {
-      "chipFamily": "ESP32-S2",
-      "improv": false,
-      "parts": [
-        { "path": "espS2-coating-speed.ino.merged.bin", "offset": 0 }
-      ]
     }
   ]
 }
