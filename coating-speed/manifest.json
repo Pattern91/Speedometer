@@ -3,10 +3,17 @@
   "version": "2025.01.0",
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S3",
       "improv": false,
       "parts": [
         { "path": "coating-speed-sparkfun.ino.merged.bin", "offset": 0 }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-S2",
+      "improv": false,
+      "parts": [
+        { "path": "espS2-coating-speed.ino.merged.bin", "offset": 0 }
       ]
     }
   ]
